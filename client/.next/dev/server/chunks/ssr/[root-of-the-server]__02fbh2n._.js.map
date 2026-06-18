@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":["file:///C:/ArbinBhasima/ARBINB/JobTracker/client/app/favicon.ico.mjs%20%28structured%20image%20object%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 256, height: 256 }\n"],"names":["src","width","height"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,mIAAG;IAAEC,OAAO;IAAKC,QAAQ;AAAI"}},
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///C:/ArbinBhasima/ARBINB/JobTracker/client/app/page.tsx"],"sourcesContent":["import React from 'react'\n\nconst Home = () => {\n  return <h1>Job Express</h1>\n}\n\nexport default Home\n\n"],"names":["Home"],"mappings":";;;;;;AAEA,MAAMA,OAAO;IACX,qBAAO,8OAAC;kBAAG;;;;;;AACb;uCAEeA"}}]
+}
