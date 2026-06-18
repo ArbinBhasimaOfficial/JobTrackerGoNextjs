@@ -28,9 +28,10 @@ export default function ApplicationForm({ application, onClose, onSuccess }: For
       return;
     }
 
+    const BASE_URL = process.env.NEXT_PUBLIC_API_URL;
     const url = application
-      ? `http://localhost:8080/applications/${application.id}`
-      : 'http://localhost:8080/applications';
+      ? `${BASE_URL}/applications/${application.id}`
+      : `${BASE_URL}/applications`;
 
     const method = application ? 'PATCH' : 'POST';
 
